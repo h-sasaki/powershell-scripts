@@ -3,7 +3,7 @@ Param (
     [Parameter(Mandatory=$True)][string]$cluster,
     [Parameter(Mandatory=$True)][string]$esxi,
     [Parameter(Mandatory=$True)][string]$user,
-    [Parameter(Mandatory=$True)][string]$password,
+    [Parameter(Mandatory=$True)][SecureString]$domain_password,
     [Parameter(Mandatory=$True)][int]$parallel_num = 2
 )
 
