@@ -12,4 +12,3 @@ Foreach ($group in $groups) {
         Write-Host $member.Name, $member.SamAccountName, $member.Enabled
     }
 }
-

@@ -59,4 +59,3 @@ foreach ($vm in $vmlist) {
 Disconnect-VIServer -Server $vcenter -Confirm:$False
 
 Stop-Transcript
-
